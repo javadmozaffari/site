@@ -29,9 +29,8 @@
 
 
 
-
         section {
-            text-align: center;
+            text-align: left;
 
         }
         h1, h2, h3 {
@@ -41,6 +40,19 @@
             color: #000000; /* Set a custom text color for headings and paragraphs */
             margin: 0 190px;
             font-family: "Times New Roman", Times, serif;
+            
+        }
+        li {
+            color: #000000; /* Set a custom text color for headings and paragraphs */
+            margin: 0 210px;
+            font-family: "Times New Roman", Times, serif;
+            
+        }
+        dt {
+            color: #000000; /* Set a custom text color for headings and paragraphs */
+            margin: 0 200px;
+            font-family: "Times New Roman", Times, serif;
+            padding: 10px 0;
         }
         a {
             color: #cc0000; /* Set a custom text color for links */
@@ -96,7 +108,11 @@
             cursor: pointer;
             transition: background-color 1s;
         }
-
+/* 
+        body {
+            background-image: url('images (2).jfif');
+        }
+      */
         .center {
             display: block;
             margin-left: auto;
@@ -104,9 +120,6 @@
             /* width: 50%; */
             padding: 10px;
         }
-
-
-        
 
     </style>
 </head>
@@ -121,8 +134,8 @@
 
     <nav>
 
-        <a href="index.html" class="custom-button2">Home</a>
-        <a href="page1.html" class="custom-button">Publications</a>
+        <a href="index.html" class="custom-button">Home</a>
+        <a href="page1.html" class="custom-button2">Publications</a>
         <a href="page2.html" class="custom-button">Projects</a>
         <a href="page3.html" class="custom-button">Life</a>
         <a href="page4.html" class="custom-button">Contact</a>
@@ -130,11 +143,15 @@
     </nav>
 
     <section>
-        <h2>Greeting</h2>
-        <p>I am an Electrical Engineer holding a degree from the Iran University of Science and Technology (IUST). My passion lies at the intersection of technology and creativity. I love programming, artificial intelligence, embedded AI and microcontrollers. In addition to engineering, I love to explore psychology, play the guitar, paint, and read fascinating books. I'm always looking for new challenges and expanding my horizons, and I'm always up for learning.</p>
-        <ul>
-            <img src="review3.PNG" class="center" style="width:1px;height:300px; ">
-        </ul>
+    <ul>
+        <li>Javad Mozaffari; Abdollah Amirkhani; Shahriar B. Shokouhi. A survey on deep learning models for detection of COVID-19 with CT and X-ray images. Neural Computing and Applications. </li>
+        <img src="review.PNG" class="center" style="width:750px;height:350px; ">
+        <li align="justify">Javad Mozaffari; Abdollah Amirkhani; Shahriar B. Shokouhi. ColonGen: An efficient polyp segmentation system for generalization improvement using a new comprehensive dataset. Physical and Engineering Sciences in Medicine.</li>
+        <img src="Capture.PNG" class="center" style="width:700px;height:350px; ">
+        <li align="justify">Javad Mozaffari; Zahra Bazzazi; Abdollah Amirkhani; Shahriar B. Shokouhi, An automated deep learning-based network for breast cancer DCE-MRI classification and segmentation using segment anything model (SAM), (Submitted to Computers in Biology and Medicine).</li>
+        <pre></pre>
+        <li align="justify">Mahdieh Alilou; Javad Mozaffari; Abdollah Amirkhani; Shahriar B. Shokouhi, A novel transformer model for benchmarking a new polyp dataset from Asia, (in preparation for IEEE Transactions on Biomedical Engineering).</li>
+    </ul>
     </section>
 
 </body>
